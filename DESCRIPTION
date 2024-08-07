@@ -13,7 +13,7 @@ Maintainer: Tim Perkins <tim@theperkins.se>
 Description: Plots a benefits realization map using to illustrate the connection between
     outputs, outcomes, benefits and impact for any project. It calculates coordinates 
     for each level of benefit DiagrammeR to parse and render as a graph
-License: What license is it under?
+License: MIT license
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
