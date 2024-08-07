@@ -1,0 +1,26 @@
+Package: BenefitsMapping
+Title: Creates benefits map from structured description of benefits
+Version: 0.8
+Type: Package
+Authors@R: c(
+    person(given = "Tim",
+           family = "Perkins",
+           role = c("aut", "cre", "cph"),
+           email = "tim@theperkins.se",
+           comment = c(ORCID = "0000-0002-5080-1418"))
+    )
+Maintainer: Tim Perkins <tim@theperkins.se>
+Description: Plots a benefits realization map using to illustrate the connection between
+    outputs, outcomes, benefits and impact for any project. It calculates coordinates 
+    for each level of benefit DiagrammeR to parse and render as a graph
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Imports: DiagrammeR,
+    tibble,
+Suggests: 
+    knitr,
+    rmarkdown
+Depends: 
+    R (>= 3.2)
